@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bitcoin Scrivania</string>
+
+    <string name="navigation_drawer_open">Cassetto navigazione Aperto</string>
+    <string name="navigation_drawer_close">Chiudere il cassetto di navigazione</string>
+
+    <string name="action_settings">Impostazioni</string>
+
+    <string name="price">Prezzo</string>
+    <string name="address">Indirizzo</string>
+    <string name="size">Dimensione</string>
+    <string name="hash">Hash</string>
+    <string name="block_number">Blocco Numero</string>
+    <string name="bitcoin_value">USD per Bitcoin</string>
+
+    <string name="search">Ricerca</string>
+    <string name="previous">Precedente</string>
+    <string name="next">Il prossimo</string>
+
+    <string name="block">Blocco</string>
+    <string name="current_price">Prezzo Attuale</string>
+    <string name="chart">Grafico</string>
+    <string name="balance">Equilibrio</string>
+    <string name="oneDayPrice">1 Giorno Prezzo</string>
+    <string name="fiveDayPrice">5 Giorno Prezzo</string>
+
+    <string-array name="navigation">
+        <item>Prezzo Attuale</item>
+        <item>Grafico</item>
+        <item>Blocco</item>
+        <item>Equilibrio</item>
+    </string-array>
+
+</resources>

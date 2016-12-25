@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:minHeight="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:fitsSystemWindows="true"
+            />
+    </android.support.design.widget.AppBarLayout>
+    <FrameLayout
+        android:layout_marginTop="45dp"
+        android:id="@+id/Price_Frag"
+        android:layout_width="match_parent"
+        android:layout_marginStart="190dp"
+        android:layout_height="match_parent"/>
+
+    <ListView
+        android:layout_marginTop="45dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_width="190dp"
+        android:id ="@+id/listView"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

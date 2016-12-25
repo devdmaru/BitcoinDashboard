@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:title="@string/current_price" />
+        <item
+            android:id="@+id/nav_chart"
+            android:title="@string/chart" />
+        <item
+            android:id="@+id/nav_block"
+            android:title="@string/block" />
+        <item
+            android:id="@+id/nav_current_balance"
+            android:title="@string/balance" />
+
+    </group>
+
+</menu>
